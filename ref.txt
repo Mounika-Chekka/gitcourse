@@ -21,8 +21,12 @@ git checkout -b <name>
 
 #remote -- local machine
 git remote add <identifier> <link>       ->to establish connection with cloud
+git push <identifier> <branchname_which_we_want_to_copy_to_remote>     ->com1
 git push                                 ->to push local commits into cloud 
-git push <identifier> <branchname_which_we_want_to_copy_to_remote>
+
+git push --set-upstream <identifier> <branchname_which_we_want_to_copy_to_remote>     ->no need to run com1 every time to add 
+git push                -> you can directly run git push 
+
 
 
 
